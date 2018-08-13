@@ -1,0 +1,11 @@
+트랜잭션
+
+servlet_context.xml 에 트랜잭션 빈 추가
+
+컨트롤러에 트랜잭션 처리부분 추가
+
+sw27-securityTagWithProperties-1_mine : 요기에 사용자 / 관리자 로그인 정리 되어있음
+
+petClinic-s0_mine2_transaction_security_login : 요기에 구현하엿음
+	1. pom.xml 안에 security 관련 4개를 depecdency + <org.springframework-version>3.2.5.RELEASE</org.springframework-version> 버전 바꾸기
+	2. security_context.xml 을 만들고(3.2버전)
